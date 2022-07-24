@@ -37,6 +37,7 @@ function solution(numbers, hand) {
   return answer.join("");
 }
 
+// 현재 키패드의 값을 col이 3인 2차원 배열의 좌표로 치환
 function calcCoordinate(num) {
   return [Math.floor((num - 1) / 3), (num - 1) % 3];
 }
