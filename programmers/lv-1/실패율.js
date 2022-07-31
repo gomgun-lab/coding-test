@@ -7,6 +7,7 @@ function solution(N, stages) {
     const stageLen = stages.filter((stage) => stage >= i).length;
     const stagePlayer = stages.filter((stage) => stage === i).length;
     const failureRate = stagePlayer / stageLen;
+
     results.push([i, failureRate]);
   }
 
