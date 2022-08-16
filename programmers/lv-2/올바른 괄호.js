@@ -1,3 +1,5 @@
+// https://school.programmers.co.kr/learn/courses/30/lessons/12909?language=javascript
+
 // 1번째 풀이
 // function solution(string) {
 //   if (string.length % 2 !== 0) return false;
