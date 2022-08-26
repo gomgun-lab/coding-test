@@ -9,7 +9,7 @@
   - Loop over all of the values in the adjacencyList for that vertex
   - If any of those valeus have not been visited, recursively invoke the helper function with that vertex
 
-```
+```javascript
   depthFirstRecursive(start) {
     const result = [];
     const visited = {};
