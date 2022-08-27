@@ -52,10 +52,10 @@ class Graph {
     const visited = {};
     let curVertex;
     visited[stack] = true;
+
     while (stack.length > 0) {
       curVertex = stack.pop();
       result.push(curVertex);
-
       this.adjacencyList[curVertex].forEach((neighbor) => {
         if (!visited[neighbor]) {
           visited[neighbor] = true;
