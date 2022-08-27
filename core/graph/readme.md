@@ -50,8 +50,8 @@
     const result = [];
     const visited = {};
     let curVertex;
-
     visited[stack] = true;
+    
     while (stack.length > 0) {
       curVertex = stack.pop();
       result.push(curVertex);
