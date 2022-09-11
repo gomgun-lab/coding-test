@@ -1,6 +1,28 @@
-//school.programmers.co.kr/learn/courses/30/lessons/42883
+//https:school.programmers.co.kr/learn/courses/30/lessons/42883
 
-https: function solution(number, k) {
+// solution 2
+function solution(number, k) {
+  const stack = [];
+  let count = 0;
+
+  for (const item of number) {
+    while (count < k && stack[stack.length - 1] < item) {
+      stack.pop();
+      count++;
+    }
+    stack.push(item);
+  }
+
+  while (count < k) {
+    stack.pop();
+    count++;
+  }
+
+  return stack.join("");
+}
+
+// solution 1
+function solution(number, k) {
   const stack = [];
   let count = k;
 
