@@ -1,6 +1,6 @@
 // https://www.acmicpc.net/problem/11660
 
-const { array } = require("./fs/multiLine");
+const { array } = require("../fs/multiLine");
 
 const n = parseInt(array[0][0]);
 const m = parseInt(array[0][1]);

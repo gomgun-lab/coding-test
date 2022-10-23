@@ -1,4 +1,4 @@
-const { input } = require("./fs/singleLine");
+const { input } = require("../fs/singleLine");
 
 const n = +input[0];
 

@@ -1,6 +1,6 @@
 // https://www.acmicpc.net/problem/13305
 
-const { array } = require("./fs/multiLine");
+const { array } = require("../fs/multiLine");
 
 const n = parseInt(array[0]);
 const lengthList = array[1].map((item) => BigInt(item));

@@ -1,4 +1,4 @@
-const { input } = require("./fs/singleLine");
+const { input } = require("../fs/singleLine");
 
 let a = parseInt(input[0]);
 const b = parseInt(input[1]);

@@ -1,4 +1,6 @@
-const { array } = require("./fs/multiLine");
+// https://www.acmicpc.net/problem/1987
+
+const { array } = require("../fs/multiLine");
 
 const [n, m] = array[0].map(Number);
 const directions = [

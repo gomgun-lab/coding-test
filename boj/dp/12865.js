@@ -1,4 +1,4 @@
-const { array } = require("./fs/multiLine");
+const { array } = require("../fs/multiLine");
 
 const [n, k] = array[0].map(Number);
 const items = array.slice(1).map((item) => item.map(Number));

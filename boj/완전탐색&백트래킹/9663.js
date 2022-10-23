@@ -1,6 +1,6 @@
 // https://www.acmicpc.net/problem/9663
 
-const { input } = require("./fs/singleLine");
+const { input } = require("../fs/singleLine");
 
 const n = +input[0];
 const table = Array.from({ length: n }, () => 0);

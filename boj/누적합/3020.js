@@ -1,4 +1,4 @@
-const { array } = require("./fs/multiLine");
+const { array } = require("../fs/multiLine");
 
 const n = +array[0][0];
 const h = +array[0][1];

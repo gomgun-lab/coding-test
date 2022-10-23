@@ -1,6 +1,6 @@
 // https://www.acmicpc.net/problem/2468
 
-const { array } = require("./fs/multiLine");
+const { array } = require("../fs/multiLine");
 
 const n = +array[0];
 const map = Array.from({ length: n }, () => Array(n));

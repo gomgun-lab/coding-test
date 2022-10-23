@@ -1,6 +1,6 @@
 // https://www.acmicpc.net/problem/1463
 
-const { input } = require("./fs/singleLine");
+const { input } = require("../fs/singleLine");
 
 const x = +input[0];
 

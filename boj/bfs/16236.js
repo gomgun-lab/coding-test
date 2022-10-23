@@ -1,6 +1,6 @@
 // https://www.acmicpc.net/problem/16236
 
-const { array } = require("./fs/multiLine");
+const { array } = require("../fs/multiLine");
 
 const n = +array[0];
 const directions = [
