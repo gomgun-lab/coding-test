@@ -1,22 +1,21 @@
 function numDecodings(s) {
   const dp = Array(s.length).fill(0);
   const length = s.length;
-  
+
   const lastChar = s[length - 1];
   if (lastChar === "0") {
     dp[length - 1] = 0;
   } else {
     dp[length - 1] = 1;
   }
-  
+
   for (let i = length - 2; i >= 0; i--) {
-    
     const singleNum = parseInt(s[i]);
     let singleCount = 0;
     if (0 < singleNum) {
       singleCount = dp[i + 1];
     }
-    
+
     const doubleNum = parseInt(s.slice(i, i + 2));
     let doubleCount = 0;
     if (doubleNum >= 10 && doubleNum <= 26) {
@@ -25,6 +24,6 @@ function numDecodings(s) {
 
     dp[i] = singleCount + doubleCount;
   }
-  
+
   return dp[0];
-};
+}
