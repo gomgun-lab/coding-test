@@ -1,3 +1,8 @@
+// https://school.programmers.co.kr/learn/courses/30/lessons/150370
+
+// 연, 월 => 모두 일로 통일
+// "오늘 >= 가입 날짜 + 유효 기간" 이면 결과에 추가
+
 function solution(today, terms, privacies) {
   const answer = [];
   const termsMap = createTermsMap(terms);
