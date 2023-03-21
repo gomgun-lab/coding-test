@@ -1,4 +1,3 @@
-const { captureRejectionSymbol } = require("events");
 const input = require("../../fs/input");
 
 const [n, d, k, c] = input[0].split(" ").map(Number);
