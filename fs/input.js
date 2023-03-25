@@ -6,7 +6,7 @@ const filePath =
     ? "/dev/stdin"
     : `${path.dirname(__filename)}/input.txt`;
 
-let temp = fs.readFileSync(filePath).toString();
+let temp = fs.readFileSync(filePath).toString().trim();
 
 const input =
   process.platform === "linux" ? temp.split("\n") : temp.split("\r\n");
