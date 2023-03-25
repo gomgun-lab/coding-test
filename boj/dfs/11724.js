@@ -6,11 +6,6 @@ const edges = input.slice(1).map((line) => line.split(" ").map(Number));
 const graph = Array.from(Array(N + 1), () => []);
 const visited = Array(N + 1).fill(false);
 
-console.log(N, M);
-console.log(edges);
-console.log(graph);
-console.log(visited);
-
 function solve(N, M, edges) {
   let components = 0;
 
